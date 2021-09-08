@@ -1,0 +1,42 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+html { 
+  background: url(images/bg.jpg) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  z-index: -1;
+}
+#navbar {
+	margin: 0 auto;
+  width: 100%;
+  height: 100px;
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  align-items: center;
+  flex-flow: row wrap;
+}
+a {
+	margin: 16px;
+	font-size: 2em;
+	text-decoration: none;
+	color: #D2D1D6;
+}
+nav a:hover {
+    color: white;
+}
+.selected {
+	color: #AAACB8;
+}
+.selected:hover {
+    color: #D2D1D6;
+    text-decoration: none;
+}
+#main {
+  color: white;
+  font-size: 2em;
+}
